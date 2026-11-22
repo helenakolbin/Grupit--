@@ -944,6 +944,30 @@
         "name": "NewTiledSprite17.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "NewSprite29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite29.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NewSprite28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite28.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NewSprite27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite27.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -3248,7 +3272,7 @@
       "title": "",
       "v": 249,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 16,
         "gridHeight": 16,
@@ -3258,8 +3282,8 @@
         "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 0.582354608383236,
+        "snap": false,
+        "zoomFactor": 0.5823546083832369,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -3283,8 +3307,8 @@
           "name": "Goblin",
           "persistentUuid": "1ea31cef-7270-4e32-b813-6d06a7bd11f2",
           "width": 0,
-          "x": 0,
-          "y": -16,
+          "x": -504,
+          "y": 128,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -6271,6 +6295,39 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 16,
+          "keepRatio": true,
+          "layer": "",
+          "name": "red_block1",
+          "persistentUuid": "0991d4f5-f1a8-4902-905f-e79bc469b31d",
+          "width": 32,
+          "x": -512,
+          "y": 624,
+          "zOrder": 357,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Portal",
+          "persistentUuid": "496ec769-7512-4096-944b-59ee500d0bca",
+          "width": 0,
+          "x": -507,
+          "y": 608,
+          "zOrder": 358,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -6473,6 +6530,139 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Portal",
+          "persistentUuid": "5fd88ef1-71c6-4a09-8beb-977e2901e55a",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.12,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite27.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 9
+                          },
+                          {
+                            "x": 24,
+                            "y": 9
+                          },
+                          {
+                            "x": 24,
+                            "y": 21
+                          },
+                          {
+                            "x": 0,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite28.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 9
+                          },
+                          {
+                            "x": 24,
+                            "y": 9
+                          },
+                          {
+                            "x": 24,
+                            "y": 21
+                          },
+                          {
+                            "x": 0,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite29.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 9
+                          },
+                          {
+                            "x": 24,
+                            "y": 9
+                          },
+                          {
+                            "x": 24,
+                            "y": 21
+                          },
+                          {
+                            "x": 0,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -6513,6 +6703,9 @@
           },
           {
             "objectName": "NewTiledSprite"
+          },
+          {
+            "objectName": "Portal"
           }
         ]
       },
@@ -6968,7 +7161,7 @@
               },
               "parameters": [
                 "",
-                "\"Level2\"",
+                "\"Platformer\"",
                 ""
               ]
             }
@@ -6990,6 +7183,43 @@
                 "Killzone.Y()",
                 "",
                 "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Goblin",
+                "Portal",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Level2\"",
+                ""
               ]
             }
           ]
@@ -7248,7 +7478,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.1343715797161007,
+        "zoomFactor": 0.7619362677197639,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
