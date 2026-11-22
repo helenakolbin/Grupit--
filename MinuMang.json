@@ -420,7 +420,7 @@
       {
         "file": "NewTiledSprite15.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"NewTiledSprite15.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "NewTiledSprite15.png",
         "smoothed": false,
         "userAdded": false
@@ -966,6 +966,14 @@
         "kind": "image",
         "metadata": "",
         "name": "NewSprite27.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "NewTiledSprite18.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"NewTiledSprite18.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite18.png",
         "smoothed": false,
         "userAdded": false
       }
@@ -3283,7 +3291,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5823546083832369,
+        "zoomFactor": 0.7105683544918492,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -3307,9 +3315,9 @@
           "name": "Goblin",
           "persistentUuid": "1ea31cef-7270-4e32-b813-6d06a7bd11f2",
           "width": 0,
-          "x": -504,
-          "y": 128,
-          "zOrder": 1,
+          "x": -53,
+          "y": 80,
+          "zOrder": 359,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7478,7 +7486,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.7619362677197639,
+        "zoomFactor": 1.1726229638177703,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -7894,38 +7902,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "EnemyBlock",
-          "persistentUuid": "643edcdb-bcfc-441f-9574-2f0ac3bcd9b3",
-          "width": 0,
-          "x": 240,
-          "y": 240,
-          "zOrder": 34,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "EnemyBlock",
-          "persistentUuid": "65f30742-14a8-4b9e-a7f9-25db7a24064d",
-          "width": 0,
-          "x": 96,
-          "y": 240,
-          "zOrder": 35,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "depth": 1,
           "height": 8,
@@ -8086,6 +8062,38 @@
           "x": -272,
           "y": 0,
           "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "8d631ac9-eaaa-4da1-aba4-d822cd5e6f2b",
+          "width": 0,
+          "x": 240,
+          "y": 240,
+          "zOrder": 47,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "NewTiledSprite2",
+          "persistentUuid": "9fa9f9fe-0423-4172-8362-3b1601b9d960",
+          "width": 0,
+          "x": 96,
+          "y": 240,
+          "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8324,6 +8332,26 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "height": 16,
+          "name": "NewTiledSprite2",
+          "persistentUuid": "4490b609-f0cd-41e8-92b0-d2097db46659",
+          "texture": "NewTiledSprite18.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 16,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -8346,6 +8374,9 @@
           },
           {
             "objectName": "Mesi3"
+          },
+          {
+            "objectName": "NewTiledSprite2"
           }
         ]
       },
@@ -9351,7 +9382,7 @@
                 "value": "CollisionPoint"
               },
               "parameters": [
-                "EnemyBlock",
+                "NewTiledSprite2",
                 "enemy.PointX(\"Wallcheck\")",
                 "enemy.PointY(\"Wallcheck\")"
               ]
