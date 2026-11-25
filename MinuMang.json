@@ -3516,7 +3516,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8962460717599646,
+        "zoomFactor": 1.0233860566028334,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -7648,7 +7648,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.2121641972173938,
+        "zoomFactor": 1.1726229638177899,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
